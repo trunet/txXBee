@@ -18,7 +18,7 @@ setup(
     scripts = [],
     license="COPYING",
     packages = ["txXBee"],
-    requires = ['XBee'],
+    install_requires = ['XBee'],
     long_description = """XBee os an easy-to-implement embedded short- and long-range wireless modules leveraging industry standard and cutting-edge designs for global flexibility from http://www.digi.com/.
 
 This library implements txXBee for the Twisted Python framework.
