@@ -16,8 +16,9 @@ setup(
     url = "http://github.com/trunet/txxbee",
     description = "XBee Protocol for Twisted",
     scripts = [],
-    license="GNU General Public License version 3",
+    license="COPYING",
     packages = ["txXBee"],
+    requires = ['XBee'],
     long_description = """XBee os an easy-to-implement embedded short- and long-range wireless modules leveraging industry standard and cutting-edge designs for global flexibility from http://www.digi.com/.
 
 This library implements txXBee for the Twisted Python framework.
@@ -25,7 +26,7 @@ This library implements txXBee for the Twisted Python framework.
     classifiers = [
         "Framework :: Twisted",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: GPLv3",
+        "License :: OSI Approved :: GNU General Public License (GPL)",
         "Programming Language :: Python",
         "Topic :: Communications",
         "Topic :: Software Development :: Libraries :: Python Modules",
